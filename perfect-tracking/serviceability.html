@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Serviceability | Perfect Enterprises</title>
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="minimalist">
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <h1>Perfect Enterprises</h1>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="serviceability.html" class="active">Serviceability</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="tracking-container">
+        <section class="pincode-checker feature-page">
+            <div class="container text-center">
+                <h2>Check Serviceability</h2>
+                <p>Enter your delivery pincode below to verify if we serve your area with our premium delivery network.
+                </p>
+
+                <div class="pincode-form-wrapper">
+                    <form id="pincodeForm" class="pincode-form">
+                        <input type="text" id="pincodeInput" name="pincode" placeholder="Enter Pincode (e.g. 400001)"
+                            required maxlength="6">
+                        <button type="submit" class="btn btn-primary" id="pincodeSubmitBtn">Check Area</button>
+                    </form>
+                </div>
+                <div id="pincodeResult" class="pincode-result hidden"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Perfect Enterprises. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS Dependencies -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

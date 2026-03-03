@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Perfect Enterprises</title>
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="minimalist">
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <h1>Perfect Enterprises</h1>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="serviceability.html">Serviceability</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-hero">
+            <div class="container">
+                <span class="badge">Get in Touch</span>
+                <h1>How can we help?</h1>
+                <p class="lead">Have a question about a shipment or our services? Our global support team is here to
+                    provide exceptional assistance.</p>
+            </div>
+        </section>
+
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="info-group">
+                            <h3>Our Office</h3>
+                            <p>krushna heritage building,shop no 4, balaji
+                                nagar,<br>Pune,Maharashtra-411043<br><br>India</p>
+                        </div>
+
+                        <div class="info-group">
+                            <h3>You can reach out to us with :</h3>
+                            <p><strong>Phone:</strong> +91 9860870183</p>
+                            <p><strong>Email:</strong> support@perfect-enterprises.com</p>
+                            <p><strong>Business Hours:</strong> Mon - Sat, 9:00 AM - 8:00 PM</p>
+                        </div>
+
+                        <div class="info-group">
+                            <h3>Follow Our Journey</h3>
+                            <div class="social-links">
+                                <a href="#">LinkedIn</a>
+                                <a href="#">Twitter</a>
+                                <a href="#">Facebook</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card">
+                        <h3>Send an Inquiry</h3>
+                        <form id="contactForm" class="inquiry-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Inquiry Subject</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="tracking">Shipment Tracking</option>
+                                    <option value="sales">Sales & Partnerships</option>
+                                    <option value="careers">Careers</option>
+                                    <option value="other">General Inquiry</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5"
+                                    placeholder="Tell us more about your request..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        </form>
+                        <div id="formSuccess" class="result-box success hidden">
+                            <div class="result-header">
+                                <span class="result-icon">✓</span>
+                                <span>Message Sent Successfully</span>
+                            </div>
+                            <p>Thank you for reaching out. A specialist will contact you within 24 hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Perfect Enterprises. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

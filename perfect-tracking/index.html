@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Your Package | Perfect Enterprises</title>
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="minimalist">
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <h1>Perfect Enterprises</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="serviceability.html">Serviceability</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="tracking-container">
+        <section class="tracking-hero">
+            <div class="hero-visual"></div>
+            <div class="container text-center">
+                <h2>Precision Tracking,<br>Perfect Deliveries</h2>
+                <p>Real-time intelligence for your global shipments. Enter your tracking ID to begin.</p>
+
+                <div class="tracking-form-wrapper">
+                    <form id="trackingForm" class="tracking-form">
+                        <input type="text" id="trackingInput" name="tracking_id" placeholder="Enter Tracking Number"
+                            required aria-label="Tracking Number">
+                        <button type="submit" class="btn btn-primary" id="trackSubmitBtn">Track Package</button>
+                    </form>
+                    <div id="trackingError" class="error-message hidden"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="trackingResults" class="tracking-results hidden">
+            <div class="container">
+                <!-- Data will be injected here via JS -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container text-center">
+            <p>&copy; 2026 Perfect Enterprises. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS Dependencies -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
