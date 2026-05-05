@@ -1,0 +1,27 @@
+# Courier Aggregator Web Platform 🚚
+
+A full-stack logistics management website built for a real courier aggregator 
+business in Pune. Inspired by industry platforms like OCCPL, DHL, and DTDC.
+
+## 🎯 Features
+
+- 📦 Shipment booking & management
+- 🗄️ Database-driven order tracking
+- 👤 Customer & admin portal
+- 🔍 Real-time shipment status lookup
+- 📍 Multi-courier aggregation support
+
+## 🛠️ Tech Stack
+
+- **Frontend:** PHP, HTML, CSS
+- **Backend:** PHP
+- **Database:** MySQL
+
+## 💼 Context
+
+Built as a freelance project for a family-owned courier aggregator business.
+Designed to match the functionality of enterprise logistics platforms.
+
+## 👤 Author
+
+Ritesh Khalale — [GitHub](https://github.com/dzen68)
